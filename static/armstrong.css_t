@@ -1,0 +1,37 @@
+@import url("./nature.css");
+
+div.related {
+    background-color: #BB6133;
+}
+
+div.related a {
+    color: #ffffff;
+}
+
+div.document {
+    background-image: url("./paper-lite.png");
+}
+
+div.body h1, div.body h2, div.body h3 {
+    background-color: #FCD396;
+}
+
+div.body {
+    color: #333;
+}
+
+a {
+    color: #BB6133;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BB6133;
+    text-decoration: underline;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    background-color: rgba(252,211,150, 0.5);
+}
+
+

@@ -1,7 +1,9 @@
 @import url("./nature.css");
 
+body { background-color: #fff; }
 div.related {
-    background-color: #BB6133;
+    background-color: #a24d21;
+    border-bottom: 1px solid rgba(37, 36, 16, 1.0);
 }
 
 div.related a {
@@ -9,29 +11,58 @@ div.related a {
 }
 
 div.document {
-    background-image: url("./paper-lite.png");
+    background-color: rgba(144, 170, 131, 0.5);
 }
 
 div.body h1, div.body h2, div.body h3 {
-    background-color: #FCD396;
+    background-color: #90aa83;
+    border-radius: 4px;
+    border: 1px solid rgba(37, 36, 16, 0.75);
+    box-shadow: 2px 2px 2px rgba(37, 36, 16, 0.5);
+    text-shadow: 0 1px 0 #ddd9b0;
 }
 
 div.body {
+    padding-top: 20px;
     color: #333;
+    background-color: #fcf8f2;
+    box-shadow: inset 2px 2px 2px rgba(37, 36, 16, 0.5);
+    border-left: 1px solid rgba(37, 36, 16, 1.0);
 }
 
 a {
-    color: #BB6133;
+    color: #628539;
     text-decoration: none;
 }
 
 a:hover {
     color: #BB6133;
+    color: #628539;
+    color: #a24d21;
     text-decoration: underline;
 }
 
-div.sphinxsidebar h3, div.sphinxsidebar h4 {
-    background-color: rgba(252,211,150, 0.5);
+div.sphinxsidebar a {
+    color: rgba(37, 36, 16, 1.0);
 }
 
+div.sphinxsidebar h3 a,
+div.sphinxsidebar h3, div.sphinxsidebar h4 {
+    background-color: rgba(37, 36, 16, 1.0);
+    color: #ddd9b0;
+    text-shadow: none;
+}
 
+div.warning {
+    background-color: #ffd4be;
+    border-color: #fe9762;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(37, 36, 16, 0.5);
+}
+
+div.footer, div.footer a {
+    background-color: rgba(37, 36, 16, 1.0);
+    color: #ddd9b0;
+}
+
+tt { background-color: transparent; font-size: 1.25em; }

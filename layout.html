@@ -158,11 +158,11 @@
   })();
 </script>
 
-{% if analytics_code %}
+{% if theme_analytics_code %}
 <!-- User Analytics Code -->
 <script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '{{ analytics_code }}']);
+  _gaq.push(['_setAccount', '{{ theme_analytics_code }}']);
   _gaq.push(['_trackPageview']);
 
   (function() {

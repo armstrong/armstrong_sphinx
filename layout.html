@@ -1,21 +1,12 @@
 {% extends "basic/layout.html" %}
 
-{% set script_files = [] %}
+{% set script_files = script_files + [pathto("_static/searchtools.js", 1)] %}
 
 {% block htmltitle %}
 {{ super() }}
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-<script type="text/javascript" src="{{ MEDIA_URL }}javascript/underscore.js"></script>
-<script type="text/javascript" src="{{ MEDIA_URL }}javascript/doctools.js"></script>
-<script type="text/javascript" src="{{ MEDIA_URL }}javascript/searchtools.js"></script>
 
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
 
-  <script type="text/javascript">
-    var doc_version = "{{ current_version }}";
-    var doc_slug = "{{ slug }}";
-  </script>
-  <script type="text/javascript" src="{{ MEDIA_URL }}javascript/rtd.js"></script>
 {% endblock %}
 
 {% block sidebarlogo %}

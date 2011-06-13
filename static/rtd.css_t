@@ -118,9 +118,9 @@ h5 a.anchor:hover, h6 a.anchor:hover {
 
 /* Normal links get a pseudo-underline */
 a {
-    color: {{ theme_dark_gray }};
+    color: {{ theme_link_color }};
     text-decoration: none;
-    border-bottom: 1px solid {{ theme_lighter_gray }};
+    border-bottom: 1px solid {{ theme_link_color_decoration }};
 }
 
 /* Links in sidebar, TOC, index trees and tables have no underline */

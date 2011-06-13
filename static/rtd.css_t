@@ -74,7 +74,7 @@ h1 {
     padding: 0.7em 0 0.3em 0;
     font-size: 1.5em;
     line-height: 1.15;
-    color: {{ theme_black }};
+    color: {{ theme_h1 }};
     clear: both;
 }
 
@@ -82,13 +82,13 @@ h2 {
     margin: 2em 0 0.2em 0;
     font-size: 1.35em;
     padding: 0;
-    color: {{ theme_dark_color }};
+    color: {{ theme_h2 }};
 }
 
 h3 {
     margin: 1em 0 -0.3em 0;
     font-size: 1.2em;
-    color: {{ theme_header_light }};
+    color: {{ theme_h3 }};
 }
 
 div.body h1 a, div.body h2 a, div.body h3 a, div.body h4 a, div.body h5 a, div.body h6 a {

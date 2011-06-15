@@ -398,7 +398,7 @@ cite, code, tt {
 }
 
 tt {
-    background-color: {{ theme_barely_white }};
+    background-color: {{ theme_code_background }};
     color: {{ theme_dark_gray }};
 }
 
@@ -420,7 +420,7 @@ pre, #_fontwidthtest {
     line-height: 120%;
     padding: 0.5em;
     border: 1px solid {{ theme_lighter_gray }};
-    background-color: {{ theme_dirty_white }};
+    background-color: {{ theme_code_background }};
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;

@@ -43,9 +43,14 @@ div.document {
 
 div.bodywrapper {
     background-color: {{ theme_white }};
-    border-left: 1px solid {{ theme_lighter_gray }};
-    border-bottom: 1px solid {{ theme_lighter_gray }};
     margin: 0 0 0 16em;
+}
+
+@media screen {
+    div.bodywrapper {
+        border-left: 1px solid {{ theme_lighter_gray }};
+        border-bottom: 1px solid {{ theme_lighter_gray }};
+    }
 }
 
 div.body {
